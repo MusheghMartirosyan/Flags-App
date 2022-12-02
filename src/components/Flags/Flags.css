@@ -15,3 +15,9 @@ h1{
     background-color: #0D1721;
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .allFlags{
+        grid-template-columns: 1fr;
+    }
+}

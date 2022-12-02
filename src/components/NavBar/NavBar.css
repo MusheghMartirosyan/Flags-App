@@ -3,7 +3,7 @@ nav a {
     text-decoration: none;
     padding: 10px 25px;
     background-color: #04AA6D;
-    margin: 25px;
+    margin-right: 10px;
     text-align: center;
     border-radius: 10px;
     transition: .3s;
@@ -19,21 +19,22 @@ header{
 nav{
     display: flex;
     padding: 25px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
 }
 nav ul{
     display: flex;
-    padding: 25px;
+    padding-top: 25px;
     list-style-type: none;
-    text-align: center;
 }
 nav input[type="text"] {
-    position: absolute;
+    width: 250px;
     height: 40px;
-    top: 40px;
-    left: 700px;
-    width: 450px;
+    text-align: center;
+    border: none;
+    outline: none;
     border-radius: 10px;
-    border: 0;
 }
 button {
     margin-bottom: 15px;
@@ -46,4 +47,14 @@ button {
 }
 button:hover{
     background-color: #FFC0C7;
+}
+
+
+@media screen and (max-width: 600px) {
+    button{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+    }
 }

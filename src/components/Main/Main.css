@@ -17,3 +17,12 @@
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.779), rgba(0, 0, 0, 0.741)), url(https://wallpapercave.com/wp/wp2440274.jpg) no-repeat center/cover;
 }
+
+@media screen and (max-width: 600px) {
+    .main p{
+        font-size: 25px;
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
