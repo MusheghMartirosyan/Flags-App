@@ -1,0 +1,16 @@
+.flagContenet{
+    text-align: center;
+    cursor: pointer;
+}
+
+.flagContenet img{
+    border: 2px solid black;
+    transform: scale(1.15);
+    margin: 25px 30px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.flagContenet:hover img{
+    transform: scale(1);
+    opacity: .8;
+}

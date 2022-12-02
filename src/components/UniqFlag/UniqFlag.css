@@ -1,0 +1,16 @@
+
+.uniqFlag{
+    text-align: center;
+    /* width: 500px; */
+    background-color: #0D1721;
+}
+.uniqImg{
+    width: 500px;
+    border: 2px solid black;
+    margin: 30px 0;
+}
+
+.uniqP{
+    color: #fff;
+    font-size: 30px;
+}
