@@ -139,15 +139,15 @@ function App() {
   return (
     <div className="App">
         <Routes>
-          <Route path='/' element={<HomeWrapper search={search} setSearch={setSearch} />}>
+          <Route path='https://musheghmartirosyan.github.io/Flags-App/' element={<HomeWrapper search={search} setSearch={setSearch} />}>
             <Route index element={<Main />} />
-            <Route path='flags' >
+            <Route path='https://musheghmartirosyan.github.io/Flags-App/flags' >
               <Route index element={<Flags search={search} flags={flags}/>}/>
-              <Route path=':id' element={<UniqFlag flags={flags} />} />
+              <Route path='https://musheghmartirosyan.github.io/Flags-App/:id' element={<UniqFlag flags={flags} />} />
             </Route>
-            <Route path='about' element={<About />} />
+            <Route path='https://musheghmartirosyan.github.io/Flags-App/about' element={<About />} />
           </Route>
-          <Route path='*' element={<Error />} />
+          <Route path='https://musheghmartirosyan.github.io/Flags-App/*' element={<Error />} />
         </Routes>
     </div>
   );
